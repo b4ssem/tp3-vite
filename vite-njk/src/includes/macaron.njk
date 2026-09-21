@@ -1,0 +1,15 @@
+<ul class="pastries-list">
+                {% for item in macaron %}
+                    <li class="pastry">
+                        <figure>
+                            <img src='{{item.image}}' alt='' loading="lazy">
+                        </figure>
+                        <section class='textes'>
+                            <h2 class='titre'>{{item.titre}}</h2>
+                            <p class='description'>
+                            {{item.content}}
+                            </p>
+                        </section>
+                    </li>
+                {% endfor %}
+</ul>

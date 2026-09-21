@@ -1,10 +1,14 @@
 {
   "menu": [
     {
-      "name": "MES PATISSERIES"
+      "name": "MES PATISSERIES",
+      "href": "./index.html",
+      "key": "index"
     },
     {
-      "name": "A PROPOS"
+      "name": "A PROPOS",
+      "href": "./about.html",
+      "key": "about"
     }
   ]
 }

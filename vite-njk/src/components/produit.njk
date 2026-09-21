@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+          {% block title %}
+            TP Nunjucks
+          {% endblock %}</title>
+        <link rel="stylesheet" href="/assets/css/reset.css">
+        <link rel="stylesheet" href="/assets/css/fonts.css">
+        <script type="module" src="/src/scripts/main.js" defer></script>
+    </head>
+    <body class="container-1280">
+        {% include "includes/menu.njk" %}
+        <main>
+            <h1 class="titre">{% block titre %}
+            {% endblock %}</h1>
+            {% include "includes/macaron.njk" %}
+        </main>
+        <footer class="footer">
+            <p>Crédits Le ptit chef - 2003-2024</p>
+        </footer>
+    </body>
+</html>

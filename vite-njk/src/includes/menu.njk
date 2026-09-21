@@ -1,0 +1,13 @@
+<nav class="main-nav">
+    <ul>
+                {% for item in menu %}
+                    <li>
+                        {% if page == item.key %}
+                            <a href="{{item.href}}" class="active">{{item.name}}</a>
+                        {% else %}
+                            <a href="{{item.href}}">{{item.name}}</a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
+    </ul>
+</nav>

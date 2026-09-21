@@ -1,0 +1,29 @@
+{
+  "pastries": [
+    {
+      "name": "Brioche à la cannelle ou Kanelbulle",
+      "desc": "1,75 € / unité",
+      "image": "/assets/images/brioche-cannelle.jpg"
+    },
+    {
+      "name": "Lunettes fraise ou abricot",
+      "desc": "1,5 € / unité",
+      "image": "/assets/images/lunettes.jpg"
+    },
+    {
+      "name": "Macarons (plusieurs goûts)",
+      "desc": "20 € / la douzaine",
+      "image": "/assets/images/macarons.jpg"
+    },
+    {
+      "name": "Opéra au thé matcha",
+      "desc": "4.5 € / la part",
+      "image": "/assets/images/opera-the-matcha.jpg"
+    },
+    {
+      "name": "Financiers",
+      "desc": "4.5 € / la part",
+      "image": "/assets/images/financiers.jpg"
+    }
+  ]
+}
