@@ -36,11 +36,9 @@ img {
     font-weight: 600;
     margin-bottom: 1rem;
     }
-}
-
-.main-nav a:hover,
-.main-nav a:focus-within {
-    color: #ef509f;
+    a:hover,a:focus-within{
+        color: #ef509f;
+    }
 }
 
 .titre {
