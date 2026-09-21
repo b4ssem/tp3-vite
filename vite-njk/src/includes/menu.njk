@@ -2,11 +2,7 @@
     <ul>
                 {% for item in menu %}
                     <li>
-                        {% if page == item.key %}
-                            <a href="{{item.href}}" class="active">{{item.name}}</a>
-                        {% else %}
-                            <a href="{{item.href}}">{{item.name}}</a>
-                        {% endif %}
+                        <a href="{{item.href}}" class="{{'active' if page == item.key}}">{{item.name}}</a>
                     </li>
                 {% endfor %}
     </ul>
