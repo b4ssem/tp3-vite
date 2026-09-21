@@ -29,7 +29,12 @@
                         <img src='/assets/images/lunettes.jpg' alt='' loading="lazy">
                     </figure>
                     <section class='textes'>
-                        <h2 class='titre'>Lunettes fraise ou abricot</h2>
+                        {% set var = "Lunettes fraise ou abricot" %}
+                        <h2 class='titre'>
+                            {% if var == "Lunettes fraise ou abricot" %}
+                                {{ var }}
+                            {% endif %}
+                        </h2>
                         <p class='description'>
                             1,5 € / unité
                         </p>
